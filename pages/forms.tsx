@@ -10,6 +10,8 @@ export default function Forms() {
   const {
     register,
     handleSubmit,
+    setValue,
+    setError,
     formState: { errors },
   } = useForm<LoginForm>({
     mode: 'onChange',
